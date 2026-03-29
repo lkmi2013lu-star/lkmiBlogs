@@ -56,14 +56,14 @@
 
         img {
             margin-left: 10px;
-            max-width: 400px;
+            max-width: 100%;
             height: auto;
             display: block;
             }
 
         @media (max-width: 600px) {
             img {
-                width: 93%;
+                width: 90%;
             }
         }
 
