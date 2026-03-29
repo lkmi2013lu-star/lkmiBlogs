@@ -54,9 +54,17 @@
             margin-left: 10px;
         }
 
-        .img {
+        img {
             margin-left: 10px;
             max-width: 400px;
+            height: auto;
+            display: block;
+            }
+
+        @media (max-width: 600px) {
+            img {
+                width: 93%;
+            }
         }
 
         .tit {
